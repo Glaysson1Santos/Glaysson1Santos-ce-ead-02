@@ -31,6 +31,11 @@
       $percentualNotaProva2    = ($notaProva2    * 100) / 25;
       $percentualNotaProva3    = ($notaProva3    * 100) / 35;      
       $percentualNotaTrabalhos = ($notaTrabalhos * 100) / 25;      
+      $Lado = $_POST['Lado'];
+      $ladoPerimetro = ($Lado    * 4);
+      $ladoArea = ($Lado    * 2);
+      
+      
       
       if ($soma >= 90) 
       {
@@ -207,5 +212,13 @@
       <?php echo $nCoordenador; ?> - Coordenador(a)
     </p>    
 
+    
+    <p> Perimetro = <?php echo $ladoPerimetro; ?>
+    
+    
+    <p> Área = <?php echo $ladoArea; ?>
+    
+    
+    
   </body>
 </html>
