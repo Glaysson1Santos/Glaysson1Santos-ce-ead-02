@@ -33,7 +33,7 @@
       $percentualNotaTrabalhos = ($notaTrabalhos * 100) / 25;      
       $Lado = $_POST['Lado'];
       $ladoPerimetro = ($Lado    * 4);
-      $ladoArea = ($Lado    * 2);
+      $ladoArea = ($Lado    * $Lado);
       
       
       
