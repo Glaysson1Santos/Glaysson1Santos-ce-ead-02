@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>
+      Avaliação de Resultados
+    </title>
+  </head>
+  <body> 
+    <form method='POST' action='saida.php'>     
+      <h1 class='titulo'>
+        Avaliação de Resultados
+      </h1>
+      
+      <p>
+        Nome do Aluno:
+        <input type='text' 
+               name='nAluno'
+         >        
+      </p>
+      
+      <p>
+        Nome da Disciplina:
+        <input type='text' 
+               name='nDisciplina'
+               value='Comércio Eletrônico'>        
+      </p>      
+      
+      <p>
+        Nome do Curso:
+        <input type='text' 
+               name='nCurso'
+               value='BSI'>        
+      </p>   
+
+      <p>
+        <em>Link</em> para a Logomarca da Faculdade:
+        <input type='text' 
+               name='linkImagem'
+               value='Logo.jpg'>        
+      </p>      
+
+      <p>
+        Nota da VA1 (0-15):
+        <input type='number' 
+               name='notaProva1'
+               step='any'
+               min='0'
+               max='15'
+                     
+      </p>  
+
+      <p>
+        Nota da VA2 (0-25):
+        <input type='number' 
+               name='notaProva2'
+               step='any'
+               min='0'
+               max='25'               
+                
+      </p> 
+
+      <p>
+        Nota da VA3 (0-35):
+        <input type='number' 
+               name='notaProva3'
+               step='any'
+               min='0'
+               max='35'               
+               
+      </p>       
+
+      <p>
+        Nota dos trabalhos (0-25):
+        <input type='text' name='notaTrabalhos'>        
+      </p>             
+      
+      <p>
+        Nome do(a) professor(a):
+        <input type='text' 
+               name='nProfessor'
+               value='Raphael Gomide'>        
+      </p>       
+
+      <p>
+        Nome do(a) coordenador(a):
+        <input type='text' 
+               name='nCoordenador'
+               value='João Carlos Peixoto'>        
+      </p>         
+      
+      <p>
+        <input type='submit' value='Gerar declaração'>      
+      </p>      
+   </form>
+  </body>
+</html>
